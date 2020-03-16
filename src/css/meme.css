@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;  
+}
+
+.memes-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+img{
+   width: 300px;
+   height: 300px;
+   margin: 0; 
+}
+
+.single-meme{
+    flex-shrink: 1;
+    flex-basis: 24%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-style: italic;
+}
+
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search-input,.search-btn{
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.search-input{
+    width: calc(30%-2em);
+    padding:5px 8px ;
+
+    margin: 0 8px;
+}
+.search-btn{
+    padding:5px 5px ;
+
+}
